@@ -1,0 +1,28 @@
+{
+  "name": "@mehdiheidari/ts-ioc",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "pub": "npm run build && npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdiheidari/ts-ioc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehdiheidari/ts-ioc/issues"
+  },
+  "homepage": "https://github.com/mehdiheidari/ts-ioc#readme",
+  "description": ""
+}
